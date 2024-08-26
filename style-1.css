@@ -168,20 +168,20 @@ padding-left: 60px;
     padding-right: 30px;
 }
 .first-video {
-    margin-top: 92px;
-    width: 360px;
+    margin-top: 90px;
+    width: 393px;
     height: 210px;
     position: absolute;
 }
 .img-pause-circle {
     position: relative;
     margin-top: 110px;
-    margin-left: 95px;
+    margin-left: 108px;
 }
 .img-pause-button {
     position: relative;
     margin-top: -110px;
-    margin-left: 162px;
+    margin-left: 175px;
 }
 .links-ul-header:hover {
     text-decoration: underline;
@@ -360,6 +360,10 @@ margin-left: 60px;
     top: 5px;
 }
 /*SECTION THREE*/
+.div-carousel-container {
+    width: 500px !important;
+    margin: 0 auto !important;
+}
 .section-main-two {
     background-image: url(/imgs/fon-vulkano.webp);
     height: 2100px;
@@ -367,6 +371,7 @@ margin-left: 60px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 .h3-main-two {
 color: rgb(1, 10, 32);
@@ -391,6 +396,9 @@ height: 680px;
 background: rgb(2, 12, 33);
 opacity:0.9;
 margin-top: 860px;
+position: absolute;
+bottom: 0px;
+width: 100%;
 }
 .h2-by-the-numbers {
 color: rgb(255, 255, 255);
@@ -448,23 +456,30 @@ margin-right: 60px;
 justify-content: center;
 }
 /*SECTION FOUR*/
+.section-main-three {
+    position: relative;
+}
 .img-top-lights {
-    width: 1440.14px;
-    height: 2400.11px;
+    /*width: 1440.14px;
+    height: 2400.11px;*/
     background: rgb(1, 0, 45);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .img-bottom-lights {
-    width: 1600px;
-    height: 700px;
+    /*width: 1600px;
+    height: 700px;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
-    margin-top: -760px;
+    position: absolute;
+    /*margin-top: -760px;*/
+    bottom: 0;
+    right: 0;
 }
 .h3-three {
 color: #000000;
@@ -475,11 +490,8 @@ line-height: 50px;
 letter-spacing: 0px;
 text-align: center;
 justify-content: center;
-position: absolute;
-margin-top: -80px;
 }
 .p-three-p {
-margin-top: -100px;
 color: rgb(111, 119, 135);
 font-family: "DM Sans";
 font-size: 18px;
@@ -488,10 +500,9 @@ line-height: 28px;
 letter-spacing: 0.5px;
 text-align: center;
 justify-content: center;
-position: absolute;
 }
 .link-third-section {
-margin-top: -100px;
+/*margin-top: -100px;*/
 width: 210px;
 height: 64px;
 background: rgb(221, 34, 66);
@@ -508,15 +519,21 @@ font-weight: 700;
 line-height: 150%;
 letter-spacing: 0%;
 text-align: center;
-position: absolute;
 box-shadow: 0 5px 0 rgb(199, 26, 55);
 }
 .link-third-section:hover {
     background: rgb(199, 26, 55);
     box-shadow: none;
-    position: relative;
     top: 5px;
 }
+.div-r-div {
+    justify-content: center;
+}
+/*.div-container-div {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}*/
 /*SECTION FIVE*/
 .section-main-four {
     background-repeat: no-repeat;
@@ -810,6 +827,18 @@ text-align: left;
     letter-spacing: 0.5px;
     text-align: left;
 }
+.second-a-a:hover {
+    text-decoration: underline;
+}
+.third-a-a:hover {
+    text-decoration: underline;
+}
+.fifth-a-a:hover {
+    text-decoration: underline;
+}
+.sixth-a-a:hover {
+    text-decoration: underline;
+}
 .first-a-a {
 width: 174px;
 height: 65.75px;
@@ -864,4 +893,8 @@ margin-right: 15px;
 .google {
     margin-right: 25px;
 }
-/*ADAPTIVE*/
+/*ADAPTIVE
+@media screen (min-width:320px) (max-width:767px) {
+
+}
+*/
