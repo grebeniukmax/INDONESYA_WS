@@ -245,6 +245,9 @@ padding-left: 60px;
     .p-number-one {
         display: none;
     }
+    .header {
+        height: 1200px;
+    }
     .logo-header {
      width: 158px;
      height: 60px;
@@ -286,7 +289,6 @@ padding-left: 60px;
         justify-content: center !important;
     }
     .div-header-container {
-        height: 100%;
         width: 314px;
         padding: 0 0px;
         margin: 0 auto;
@@ -298,7 +300,7 @@ padding-left: 60px;
     .li-to-li-to {
         margin-top: 0px;
         padding-left: 0px;
-        width: 280px;
+        width: 314px;
     }
     .a-near-h1 {
       margin-left: 0px;
@@ -467,6 +469,31 @@ margin-left: 60px;
         width: 314px;
         height: 232px;
     }
+    .a-main-button-first {
+font-size: 18px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+align-items: center;
+padding: 16px 24px 16px 24px;;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+    }
+    .h2-main-first {
+font-size: 40px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0%;
+    }
+    .h2-main-second {
+        font-size: 40px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0%;
+    }
     .img-main-second {
         width: 314px;
         height: 232px;
@@ -484,6 +511,10 @@ height: 72px;
     .a-main-button-second {
         width: 314px;
         height: 72px;
+    }
+    .section-main-two {
+        margin-top: -20px !important;
+        padding-top: -20px !important;
     }
 }
 /*SECTION THREE*/
