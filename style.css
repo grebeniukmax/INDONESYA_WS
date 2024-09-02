@@ -246,13 +246,16 @@ padding-left: 60px;
         display: none;
     }
     .header {
-        height: 1200px;
+        height: 1180px;
+    }
+    .ul-last-header {
+        padding-top: 54px;
     }
     .logo-header {
      width: 158px;
      height: 60px;
      margin-left: 0px;
-     margin-right: 48px;
+     margin-right: 42px;
      margin-left: -10px;
     }
     .second-ul-header {
@@ -263,8 +266,17 @@ padding-left: 60px;
     }
     .first-svg-header {
         padding-left: 0px;
-        margin-left: 52px;
+        margin-left: 46px;
         margin-right: 0px;
+    }
+    .p-li-items-header {
+        padding-left: 32px;
+    }
+    .h4-li-items {
+        padding-left: 32px;
+    }
+    .lorem-p-header {
+        padding-left: 32px;
     }
     .h1 {
         font-size: 58.15px;
@@ -316,12 +328,119 @@ padding-left: 60px;
     }
     .img-pause-circle {
         margin-top: 0px;
+        margin-left: 65px;
     }
     .img-pause-button {
-        margin-top: 0px;
+        margin-top: -108px;
+        margin-left: 132px;
     }
     .second-svg-header {
         margin-left: 15px !important;
+    }
+    .img-main-first {
+        margin-top: 0px !important;
+        padding-top: 40px;
+    }
+    .h2-main-first {
+      align-items: center;
+      margin-top: 32px !important;
+    }
+    .h2-main-second {
+        align-items: center;
+        padding-top: 32px;
+    }
+    .p-main-first {
+        align-items: center;
+        padding-top: 32px;
+    }
+    .p-main-second {
+        align-items: center ;
+        padding-top: 32px;
+
+    }
+    .img-main-second {
+        margin-top: 0px !important;
+    }
+}
+
+
+/*BURGER*/
+.burger-menu-section {
+    display: none;
+}
+
+.burger-menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.burger-menu-icon {
+    width: 24px;
+    height: 24px;
+    fill: #000; 
+}
+.burger-menu-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    overflow: auto;
+}
+
+.burger-menu-overlay.active {
+    transform: translateX(0);
+}
+.burger-menu-link {
+    width: 220px;
+    height: 69px;
+}
+.close-menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close-menu-icon {
+    width: 24px;
+    height: 24px;
+    fill: #000;
+}
+
+.burger-menu-nav {
+    margin-top: 50px;
+}
+
+.burger-menu-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.burger-menu-nav li {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.burger-menu-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .burger-menu-section {
+        display: block;
     }
 }
 
@@ -331,7 +450,12 @@ padding-left: 60px;
 
 
 
-/*SECTION TWO*/
+
+
+
+
+
+/*SECTION TWO Walkways*/
 .ul-main-first {
 background-image: url(/imgs/section-two-fon-one.webp);
 background: rgb(1, 10, 32);
@@ -469,6 +593,9 @@ margin-left: 60px;
         width: 314px;
         height: 232px;
     }
+    .ul-main-second {
+        margin-top: -82px;
+    }
     .a-main-button-first {
 font-size: 18px;
 font-weight: 700;
@@ -512,12 +639,59 @@ height: 72px;
         width: 314px;
         height: 72px;
     }
-    .section-main-two {
-        margin-top: -20px !important;
-        padding-top: -20px !important;
+    .img-main-first {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .img-main-second {
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .h2-main-first {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 30px;
+    }
+    .h2-main-second {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 30px;
+    }
+    .p-main-first {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
+    .p-main-second {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
+    .a-main-button-first {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
+    .a-main-button-second {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 30px;
     }
 }
-/*SECTION THREE*/
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION THREE Carusel and numbers*/
 .div-carousel-container {
     width: 500px !important;
     margin: 0 auto !important;
@@ -613,7 +787,39 @@ margin-right: 60px;
 .carousel {
 justify-content: center;
 }
-/*SECTION FOUR*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .section-main-two {
+        height: 2000px;
+    }
+    .div-h3-main {
+        width: 314px;
+        padding: 0 0px;
+        margin: 0 auto;
+    }
+    .h3-main-two {
+        padding-top: 20px;
+    }
+    .div-carousel-container {
+        width: 320px !important;
+        padding-top: 36px;
+    }
+    .div-second-div-div {
+        height: 990px !important;
+    }
+    .h2-by-the-numbers {
+        padding-top: 42px;
+    }
+    .lorem-section-two {
+        align-items: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .ul-by-the-numbers {
+        display: block;
+    }
+}
+/*SECTION FOUR Lights*/
 .section-main-three {
     position: relative;
     padding-top: 248px;
@@ -688,7 +894,50 @@ margin: 0 auto;
     margin: 0 auto;
     padding: 0 15px;
 }
-/*SECTION FIVE*/
+.img-top-top {
+    display: none;
+}
+.bottom-bottom {
+    display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .hr-three {
+        align-items: stretch !important;
+    }
+    .section-main-three {
+        height: 740px;
+    }
+    .p-three-p {
+        margin-bottom: 41px;
+        align-items: stretch !important;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .div-container-div {
+        width: 375px !important;
+        padding: 0 15px !important;
+        margin: 0 auto !important;
+    }
+    .section-main-three {
+        height: 740px;
+        padding-top: 120px;
+    }
+    .link-third-section {
+        margin: 0 0px;
+        width: 314px;
+        height: 73px;
+        padding-top: 25px;
+        text-align: center;
+        margin-left: 15px;
+    }
+    .img-top-lights {
+        position: absolute;
+    }
+    .img-bottom-lights {
+        position: absolute;
+    }
+}
+/*SECTION FIVE Men video*/
 .section-main-four {
     background-repeat: no-repeat;
     background-size: cover;
@@ -761,7 +1010,56 @@ line-height: 28px;
 letter-spacing: 0.5px;
 text-align: left;
 }
-/*SECTION SIX*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ul-section-four {
+        margin-top: 40px;
+    }
+    .section-main-four {
+        width: 375px;
+        padding: 0 15px;
+        margin: 0 auto;
+        padding-bottom: -60px;
+        height: 1420px;
+    }
+    .h4-section-four {
+        font-size: 38px;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .section-img-four {
+        width: 314px;
+        height: 192px;
+    }
+    .ul-section-four {
+        display: block;
+    }
+    .img-first-four {
+        padding-top: -30px;
+        width: 314px;
+        height: 176px;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .div-four-one {
+        margin-top: 40px;
+        margin-bottom: 19px;
+        font-size: 22px;
+    }
+    .counry {
+        text-align: center;
+    }
+    .p-four-one {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    .img-second-four {
+        width: 314px;
+        height: 176px;
+        align-items: center;
+        margin-left: 15px;
+    }
+}
+/*SECTION SIX Gallery*/
 .h3-five {
 color: rgb(1, 10, 32);
 font-family: "DM Sans";
@@ -788,17 +1086,28 @@ justify-content: center;
 margin-bottom: 50px;
 }
 .ul-section-five {
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
+    display: grid;
     align-items: center;
     margin-bottom: 220px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 15px;
+    padding: 15px;
 }
+.img-oneone { grid-column: 1 / span 1; grid-row: 1; }
+.img-twotwo { grid-column: 2 / span 1; grid-row: 1; }
+.img-threethree { grid-column: 3 / span 1; grid-row: 1; }
+.img-fourfour { grid-column: 1 / span 1; grid-row: 2; }
+.img-fivefive { grid-column: 2 / span 1; grid-row: 2; }
+.img-sixsix { grid-column: 3 / span 1; grid-row: 2; }
 .img-oneone {
     width: 246px;
     height: 353px;
     border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    /*margin-right: 20px;
+    margin-bottom: 20px;*/
 }
 .img-twotwo {
     width: 246px;
@@ -810,8 +1119,8 @@ margin-bottom: 50px;
     width: 246px;
     height: 140px;
     border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    /*margin-right: 20px;
+    margin-bottom: 20px;*/
 }
 .img-fourfour {
     width: 246px;
@@ -822,15 +1131,51 @@ margin-bottom: 50px;
     width: 246px;
     height: 246px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 .img-sixsix {
     width: 246px;
     height: 246px;
     border-radius: 10px;
-    
 }
-/*SECTION SEVEN*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .h3-five {
+        margin-top: 30px;
+    }
+    .ul-section-five {
+        margin-bottom: 0px;
+    }
+    .p-section-five {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+    .img-oneone {
+      width: 151px;
+      height: 217px;
+    }
+    .img-twotwo {
+      width: 151px;
+      height: 86px;
+    }
+    .img-threethree {
+        width: 151px;
+        height: 86px;
+    }
+    .img-fourfour {
+        width: 151px;
+        height: 217px;
+    }
+    .img-fivefive {
+       width: 150px;
+       height: 163px;
+    }
+    .img-sixsix {
+        width: 150px;
+        height: 163px;
+    }
+}
+/*SECTION SEVEN Getting there*/
 .h2-h2-six {
 color: rgb(1, 10, 32);
 font-family: "DM Sans";
@@ -928,10 +1273,11 @@ height: 1300px;
 }
 .img-between-rows {
 position: absolute;
-margin-top: 70px;
-margin-left: 1250px;
+margin-top: -40px;
 width: 100px;
 height: 100px;
+right: 0;
+margin-right: 80px;
 }
 .img-bike {
     margin-left: 60px;
@@ -1016,6 +1362,7 @@ height: 65.75px;
     line-height: 28px;
     letter-spacing: 0.5px;
     text-align: left;
+    margin-right: 10px;
 }
 .svg-footer {
     width: 24px;
