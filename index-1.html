@@ -39,12 +39,31 @@
                 </svg>
             </a></li>
 
-            <li class="ul-items-header svg-svg"><a href="" class="links-ul-header-svg">
+            <li class="ul-items-header svg-svg"><button class="links-ul-header-svg burger-menu-button mob-menu__button--open">
                 <svg class="second-svg-header">
                     <use href="./symbol-defs.svg#icon-burger-menu"></use>
                 </svg>
-            </a></li>
+            </button></li>
            </ul>
+           <!--BURGER-->
+           <div class="mobile-menu is-hidden mob-menu">
+            <button class="close-button mob-menu__button--close">
+                <!--<svg class="icon-close">
+                  <use href="./img/symbol-defs-copy.svg#icon-cross"></use>
+                </svg>-->
+                <p class="icon-close">X</p>
+              </button>
+    
+            <nav class="header-nav mobile-nav">
+              <ul class="mobile-list">
+                <li class="list-item"> <a href="" class="list-link"><img src="/imgs/second-logo.webp" alt="" class="img-logo-burger"></a></li>
+                <li class="list-item"><a href="" class="list-link div-items-header-burger">destinations</a></li>
+                <li class="list-item"><a href="" class="list-link div-items-header-burger">experiences</a></li>
+                <li class="list-item"><a href="" class="list-link div-items-header-burger">about</a></li>
+                <li class="list-item"><a href="" class="list-link div-items-header-burger">gallery</a></li>
+              </ul>
+            </nav>
+          </div>
             </section>
 
 
@@ -76,7 +95,7 @@
                             <p class="div-items-header tw">Tw</p>
                         </div>
                     </li>
-                    <li class="ul-items-three li-to-li-to">
+                    <li class="ul-items-three li-to-li-to first-li-to">
                         <p class="p-li-items-header">01</p>
                             <h4 class="h4-li-items">Title here</h4>
                                 <p class="lorem-p-header">Lorem ipsum dolor sit<br>amet et amet ist ame.</p>
@@ -99,32 +118,6 @@
                 </ul>
         </section>
         </div>
-        <!--BURGER MENU-->
-        <section class="burger-menu-section">
-            <button class="burger-menu-button" aria-label="Toggle navigation">
-                <svg class="burger-menu-icon" viewBox="0 0 24 24">
-                    <use href="./symbol-defs.svg#icon-burger-menu"></use>
-                </svg>
-            </button>
-        </section>
-
-        <!-- Burger menu overlay -->
-        <div class="burger-menu-overlay">
-            <button class="close-menu-button" aria-label="Close menu">
-                <svg class="close-menu-icon" viewBox="0 0 24 24">
-                    <use href="./symbol-defs.svg#icon-close"></use>
-                </svg>
-            </button>
-            <nav class="burger-menu-nav">
-                <ul>
-                    <li><a href="" class="burger-menu-link"><img src="/imgs/./second-logo.webp" alt="logo" class="logo-header-burger"></a></li>
-                    <li><a href="" class="burger-menu-link">Destinations</a></li>
-                    <li><a href="" class="burger-menu-link">Experiences</a></li>
-                    <li><a href="" class="burger-menu-link">About</a></li>
-                    <li><a href="" class="burger-menu-link">Gallery</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
 
 
@@ -136,7 +129,7 @@
 
 
 
-    <main>
+    <main class="main">
         <section class="section-main-one">
             <ul class="ul-main-first">
                 <li class="li-main-first">
@@ -146,7 +139,6 @@
                     <h2 class="h2-main-first">The walkways of<br>Indonesia spellbind</h2>
                     <p class="p-main-first">Lorem ipsum dolor sit amet, consectetur adip<br>scing elit. Fusce commodo magna et libero<br>mollis rhoncus.</p>
                     <a href="" class="a-main-button-first">Learn More</a>
-                </li>
             </ul>
 
             <ul class="ul-main-second">
@@ -236,12 +228,14 @@
 
         <section class="section-main-three">
             <img src="/imgs/top-light.webp" alt="#" class="img-top-lights">
+            <img src="imgs/Whangaehu.png" alt="#" class="img-top-top">
             <div class="div-container-div">
                  <h3 class="hr-three">Our hills and valleys are like<br> nothing you’ve seen.</h3>
                  <p class="p-three-p">Lorem ipsum dolor sit amet, consectetur adipiscing<br>elit. Fusce sit amet magna commodo, tempus dolor<br>sit amet, laoreet elit. Donec mauris tortor.</p>
                  <a href="" class="link-third-section">Learn more</a>
             <img src="/imgs/down-light.webp" alt="#" class="img-bottom-lights">
         </div>
+        <img src="imgs/Whangaehu (1).png" alt="#" class="img-bottom-bottom">
         </section>
 
 
@@ -313,28 +307,40 @@
                 <li class="li-items-six">
                     <h6 class="h6-six-one booking">Bookings your flights</h6>
                     <p class="lorem-p-six lllll">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus<br> tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed<br> eros tincidunt, viverra neque auctor, lobortis enim.</p>
+                    <p class="lorem-help-lorem">Lorem ipsum dolor set,,,,
+                    </p>
+                    <h6 class="h6-help-more">Show more</h6>
 
-                    <h6 class="h6-six-one">Choosing your hotel</h6>
+                    <h6 class="h6-six-one choose">Choosing your hotel</h6>
                     <p class="lorem-p-six lllll">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus<br> tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed<br> eros tincidunt, viverra neque auctor, lobortis enim.</p>
+                    <p class="lorem-help-lorem">Lorem ipsum dolor set,,,,
+                    </p>
+                    <h6 class="h6-help-more">Show more</h6>
 
                     <ul class="ul-ul-six-two">
                     <li class="li-six-six">
+                    <img src="/imgs/bike-second.jpg" alt="" class="bike-second">
                     <img src="/imgs/bike.webp" alt="img" class="img-bike">
                     </li>
                     <li class="li-six-six">
-                    <h6 class="h6-six-one">Travelling there</h6>
+                    <h6 class="h6-six-one travel-p">Travelling there</h6>
                     <p class="lorem-p-six lllll">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Phasellus dapibus mauris<br> in lectus tempus, eget tincidunt.</p>
+                    <p class="lorem-help-lorem">Lorem ipsum dolor set,,,,
+                    </p>
+                    <h6 class="h6-help-more more-last-last">Show more</h6>
                     </li>
                     </ul>
-                    <h6 class="h6-six-one">Planning your experiences</h6>
+                    <h6 class="h6-six-one plan-last-last">Planning your experiences</h6>
                     <p class="lorem-p-six">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus<br> tempus, eget tincidunt lacus varius. </p>
+                    <p class="lorem-help-lorem">Lorem ipsum dolor set,,,,
+                    </p>
+                    <h6 class="h6-help-more">Show more</h6>
 
                     <a href="" class="a-six-section">Learn more</a>
                     
             </li>
             </div>
             </ul>
-           <!--<a href="#" class="aaa"><img src="/imgs/red-to-red.webp" alt="" class="img-between-rows"></a>-->
         </section>
     </main>
 
@@ -363,7 +369,7 @@
                 </li>
 
                 <li class="li-items-footer-a blog">
-                    <a href="" class="sixth-a-a">Blog</a>
+                    <a href="" class="sixth-a-a blog">Blog</a>
                 </li>
 
                 <li class="li-items-footer">
@@ -395,9 +401,10 @@
            </section>
     </footer>
      <!--SCRIPT до Бустрапу-->
+     <!--<script src="./style.js" type="module"></script>-->
+     <script src="./mobile.js" type="module"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-      </script>
 </body>
 </html>
