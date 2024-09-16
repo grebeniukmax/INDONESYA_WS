@@ -230,15 +230,13 @@ padding-left: 60px;
     position: absolute;
     top: 0;
     right: 0;
-    left: -31px;
-    width: 376px;
-    height: 58vh;
+    width: 100%;
+    height: 100vh;
     padding-bottom: 34px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #393939;
     transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    margin-right: 20px;
     align-items: center;
   }
   .icon-close {
@@ -401,6 +399,10 @@ text-decoration: underline;
     .imd-row-first {
         display: none;
     }
+    .header {
+        overflow: hidden;
+        position: relative;
+    }
     .imd-row-second {
         display: none;
     }
@@ -412,6 +414,7 @@ text-decoration: underline;
     }
     .ul-last-header {
         display: block;
+        margin-left: 16px;
     }
     .links-ul-header {
         display: none;
@@ -459,10 +462,7 @@ text-decoration: underline;
         line-height: 63px;
         letter-spacing: 0%;
         text-align: left;
-        margin-left: 0px;
-    }
-    .ul-last-header {
-        margin: 0px;
+        margin-left: 20px;
     }
     .svg-svg {
         margin-right: 0px !important;
@@ -476,11 +476,6 @@ text-decoration: underline;
         margin-right: 0px;
         justify-content: center !important;
     }
-    .div-header-container {
-        /*width: 314px;
-        padding: 0 0px;
-        margin: 0 auto;*/
-    }
     .links-ul-header-img {
         margin-left: 0px;
         margin-right: 0px;
@@ -490,24 +485,14 @@ text-decoration: underline;
         padding-left: 0px;
         width: 314px;
     }
-    .header {
-        /*width: 375px;
-        padding: 0 15px;
-        margin: 0 auto;*/
-    }
     .secion-header-first {
         width: 314px;
         padding: 0 0px;
         margin: 0 auto;
     }
-    .main {
-        /*width: 375px;
-        padding: 0 15px;
-        margin: 0 auto;*/
-    }
     .a-near-h1 {
-      margin-left: 0px;
-      width: 315px;
+      margin-left: 20px;
+      width: 300px;
       height: 59px;
     }
     .ul-items-three-vidos {
@@ -531,28 +516,45 @@ text-decoration: underline;
     .img-main-first {
         margin-top: 0px !important;
         padding-top: 40px;
+        margin-bottom: -110px;
     }
     .h2-main-first {
       align-items: center;
       margin-top: 32px !important;
+      text-align: center;
+      margin-left: -80px;
     }
     .h2-main-second {
         align-items: center;
         padding-top: 32px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 30px;
+        margin-top: 0px ;
+        margin-bottom: 0px;
+        padding-left: px;
+        padding-top: -30px;
+        margin-left: -30px;
     }
     .p-main-first {
         align-items: center;
         padding-top: 32px;
+        margin-right: -100px;
+        padding-right: 110px;
+        margin-left: -30px;
+        }
     }
     .p-main-second {
         align-items: center ;
         padding-top: 32px;
+        text-align: center;
 
     }
     .img-main-second {
         margin-top: 0px !important;
     }
-}
+
 @media (max-width: 767px) {
     .burger-menu-section {
         display: block;
@@ -589,7 +591,6 @@ justify-content: center;
     height: 540px;
     justify-content: center;
 }
-.section-main-one
 .h2-main-first {
 color: rgb(255, 255, 255);
 font-family: "DM Sans";
@@ -618,11 +619,12 @@ letter-spacing: 1%;
 }
 .p-main-second {
 color: rgb(224, 224, 224);
-font-family: DM Sans;
+font-family: "DM Sans";
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
 letter-spacing: 1%;
+padding-right: 0px;
 }
 .a-main-button-first {
     color: rgb(255, 255, 255);
@@ -710,12 +712,15 @@ margin-left: 60px;
     .img-main-first {
         width: 314px;
         height: 232px;
-    }
-    .ul-main-second {
-        margin-top: -82px;
+        margin-left: 20px;
     }
     .ul-main-first {
-        height: auto;
+        width: 375px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .section-main-one {
+        background: rgb(1, 10, 32);
     }
     .a-main-button-first {
 font-size: 18px;
@@ -737,6 +742,11 @@ line-height: 46px;
 letter-spacing: 0%;
 margin-top: -100px;
 margin-left: -30px;
+margin-bottom: -10px;
+padding-left: 0px;
+    }
+    .section-main-one {
+        font-size: 40px;
     }
     .h2-main-second {
         font-size: 40px;
@@ -762,10 +772,13 @@ height: 72px;
         margin-bottom: 30px;
         margin-left: -30px;
         padding-right: 80px;
+        padding-bottom: 30px;
     }
     .p-main-second {
         margin-left: -10px;
         padding-right: 100px;
+        padding-top: 25px;
+        margin-right: 30px;
     }
     .a-main-button-second {
         width: 314px;
@@ -781,7 +794,6 @@ height: 72px;
     .img-main-first {
         margin-left: 30px;
         margin-top: 0px;
-        margin-bottom: 0px;
     }
     .img-main-second {
         margin-left: 30px;
@@ -808,15 +820,15 @@ height: 72px;
     .main {
         padding: 0 0;
     }
-    .footer {
+    /*.footer {
         width: 375px;
         padding: 0 15px;
         margin: 0 auto;
-    }
+    }*/
     .p-main-first {
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-left: 30px;
+        margin-left: -30px;
     }
     .p-main-second {
         margin-top: 0px;
@@ -958,7 +970,7 @@ justify-content: center;
         padding-top: 36px;
     }
     .div-second-div-div {
-        height: 990px !important;
+        height: 790px !important;
     }
     .h2-by-the-numbers {
         padding-top: 42px;
@@ -1193,11 +1205,20 @@ text-align: left;
         margin-top: 40px;
     }
     .section-main-four {
-        width: 375px;
+        /*width: 375px;
         padding: 0 15px;
-        margin: 0 auto;
+        margin: 0 auto;*/
         padding-bottom: -60px;
         height: 1420px;
+    }
+    .header {
+        overflow: hidden;
+    }
+    .secion-header-first {
+        position: static;
+    }
+    .div-header-container {
+        position: static;
     }
     .h4-section-four {
         font-size: 38px;
@@ -1223,6 +1244,9 @@ text-align: left;
         margin-bottom: 19px;
         font-size: 22px;
         margin-left: 20px;
+    }
+    .section-main-first {
+        position: static;
     }
     .counry {
         text-align: center;
@@ -1699,26 +1723,26 @@ margin-right: 15px;
     }
     .about {
         font-size: 26px;
-        margin-left: 55px;
+        text-align: center;
     }
     .pricing {
         font-size: 26px;
-        margin-left: 55px;
+        text-align: center;
     }
     .company {
         font-size: 26px;
-        margin-left: 45px;
+        text-align: center;
     }
     .blog {
         font-size: 26px;
-        margin-left: 62px;
-        margin-right: 0px;
+        text-align: center;
     }
     .img-between-rows {
         display: none;
     }
     .facebook {
         margin-left: 50px;
+        text-align: center;
     }
     .svg-footer {
         position: absolute;
@@ -1728,13 +1752,118 @@ margin-right: 15px;
     }
     .p-footer {
         font-size: 22px;
-        margin-left: 55px;
+        text-align: center;
         margin-top: 100px;
+        margin-left: -20px;
+    }
+    .blog {
+        text-align: center;
     }
     .google {
         margin-left: 220px;
+        text-align: center;
     }
     .linkedin {
-        margin-left: 135px;
+        margin-left: 138px;
+        text-align: center;
     }
+    .h2-main-first {
+        margin-left: -60px;
+        padding-left: 15px;
+    }
+    .h2-main-second {
+        margin-top: 0px;
+        padding-right: 20px;
+        margin-left: 0px;
+        margin-left: -55px;
+    }
+    .a-main-button-first {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: -50px;
+    }
+    .ul-main-second {
+        margin-top: 140px;
+        margin-left: 0px;
+    }
+    .p-main-second {
+        margin-left: -25px;
+        padding-top: 20px;
+        text-align: left;
+        padding-right: 0px;
+    }
+    .a-main-button-second {
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+    .p-main-first {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: -45px;
+        margin-right: 0px;
+    }
+    .img-main-second {
+        height: 180px;
+        margin-top: 40px !important;
+        margin-left: 25px;
+    }
+    .img-main-first {
+        margin-left: 20px;
+    }
+    .h2-main-second {
+        margin-left: -45px;
+        padding-right: 0px;
+    }
+    .ul-main-second {
+        width: 375px;
+        padding: 0 15px;
+        margin: 0 auto;
+        margin-top: 140px;
+    }
+    .div-div-div-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 1280px;
+        background-image: url(/imgs/fon-near-video-man-photoaidcom-darken\ \(1\).webp);
+        height: 1400px;
+    }
+    .section-main-four {
+        width: 375px;
+        padding: 0 15px;
+        margin: 0 auto;
+        background-image: none;
+    }
+.div-four-one {
+    text-align: center;
+    margin-left: 0px;
+}
+.p-four-one {
+    text-align: center;
+    margin-left: 0px;
+}
+.section-main-five {
+    width: 375px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.ul-section-five {
+    margin-left: -10px;
+}
+.img-logo-footer {
+    margin-left: 20px;
+    padding-left: 0px;
+}
+.blog {
+    margin-right: 15px;
+}
+.section-main-one {
+    height: 1440px;
+}
+.img-main-second {
+    width: 300px;
+}
+.h2-main-second {
+    margin-left: 55px;
+}
 }
